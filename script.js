@@ -16,7 +16,7 @@ button.addEventListener("click", () =>{
     
     if (numGen === 1){
         dice.src="img/dice1.png"
-        winLose.textContent = "You Lost! Better Luck Next Time"
+        winLose.textContent = "You Lost!"
         rollNumber.textContent = `No. Of Rolls: ${rolls}`
         diceScore = 0
         rolls = 0
@@ -85,7 +85,7 @@ button2.addEventListener("click", () =>{
 
     if (numGen2 === 1){
         dice2.src="img/dice1.png"
-        winLose2.textContent = "You Lost! Better Luck Next Time"
+        winLose2.textContent = "You Lost!"
         rollNumber2.textContent = `No. Of Rolls: ${rolls2}`
         diceScore2 = 0
         rolls2 = 0

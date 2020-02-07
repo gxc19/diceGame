@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #ff8484;
+    font-family: 'Notable', sans-serif;
 }
 
 .container{
@@ -12,7 +13,6 @@ body{
 .header{
     font-size: 40px;
     margin-top: -30px;
-    font-family: 'Notable', sans-serif;
 }
 
 #dice{
@@ -39,3 +39,30 @@ body{
     display: flex;
     margin-right: 60px;
 }
+
+.but{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 90px;
+    border-radius: 7px;
+    margin-top: -2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    box-shadow: 0 7px rgba(197, 197, 197, 0.884), 4px 4px 4px 4px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: rgb(231, 229, 229);
+}
+
+.but:focus{
+    border: none;
+    outline: none;
+}
+
+.but:active{
+    transform: translateY(4px);
+    box-shadow: 0 5px rgb(160, 160, 160), 2px 2px 2px 2px rgba(0, 0, 0, 0.425);
