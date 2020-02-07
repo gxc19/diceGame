@@ -1,1 +1,41 @@
+body{
+    margin: 0;
+    background-color: #ff8484;
+}
 
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    font-size: 40px;
+    margin-top: -30px;
+    font-family: 'Notable', sans-serif;
+}
+
+#dice{
+    margin-right: 450px;
+}
+
+.container2{
+    display: flex;
+    margin-top: 35px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f06060;
+    border-radius: 10px;
+    height: 350px;
+    width: 600px;
+}
+
+#player1{
+    display: flex;
+    margin-right: 60px;
+}
